@@ -1,3 +1,12 @@
+# Ignore common use compressed file format.
+*.tar.gz
+*.zip
+*.7z
+*.rar
+
+# Ignore log file format.
+*.log
+
 # VSCode configuration directory.
 .vscode/
 
