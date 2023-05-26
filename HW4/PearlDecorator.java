@@ -5,7 +5,7 @@ public class PearlDecorator extends AddonDecorator {
 
   @Override
   public String getDescription() {
-      return beverage.getDescription() + ", �ï]";
+      return beverage.getDescription() + ", 珍珠";
   }
 
   @Override

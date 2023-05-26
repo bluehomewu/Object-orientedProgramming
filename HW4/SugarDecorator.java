@@ -5,7 +5,7 @@ public class SugarDecorator extends AddonDecorator {
 
   @Override
   public String getDescription() {
-      return beverage.getDescription() + ", ¿}";
+      return beverage.getDescription() + ", ç³–";
   }
 
   @Override

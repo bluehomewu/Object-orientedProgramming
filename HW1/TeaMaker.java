@@ -1,6 +1,6 @@
 class TeaMaker extends BeverageMaker {
   public void brew() {
-      System.out.println("®ûªw¯ù¸­3¤ÀÄÁ");
+      System.out.println("æµ¸æ³¡èŒ¶è‘‰3åˆ†é˜");
   }
 
   public boolean wantsIce() {
@@ -8,6 +8,6 @@ class TeaMaker extends BeverageMaker {
   }
 
   public void addCondiments() {
-      System.out.println("²K¥[ÂfÂcµ¥ÃB¥~²K¥[ª«");
+      System.out.println("æ·»åŠ æª¸æª¬ç­‰é¡å¤–æ·»åŠ ç‰©");
   }
 }

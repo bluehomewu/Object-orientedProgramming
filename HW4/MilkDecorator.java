@@ -5,7 +5,7 @@ public class MilkDecorator extends AddonDecorator {
 
   @Override
   public String getDescription() {
-      return beverage.getDescription() + ", ¤û¥¤";
+      return beverage.getDescription() + ", ç‰›å¥¶";
   }
 
   @Override

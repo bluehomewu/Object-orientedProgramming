@@ -1,17 +1,17 @@
 /**
-* ³o¬O¥x¹qµø¡C¨ã¦³¶}¾÷»PÃö¾÷¥\¯à¡A¤]¥i¥H±oª¾¹qµø¬O§_¶}µÛ
+* é€™æ˜¯å°é›»è¦–ã€‚å…·æœ‰é–‹æ©Ÿèˆ‡é—œæ©ŸåŠŸèƒ½ï¼Œä¹Ÿå¯ä»¥å¾—çŸ¥é›»è¦–æ˜¯å¦é–‹è‘—
 */
 public class Television {
   private boolean isOn = false;
   
   public void on() {
       isOn = true;
-      System.out.println("¶}¹qµø");
+      System.out.println("é–‹é›»è¦–");
   }
   
   public void off() {
       isOn = false;
-      System.out.println("Ãö¹qµø");
+      System.out.println("é—œé›»è¦–");
   }
   
   public boolean getStatus() {

@@ -10,13 +10,13 @@ abstract class BeverageMaker {
   }
 
   public void boilWater() {
-      System.out.println("µN¤ô");
+      System.out.println("ç…®æ°´");
   }
 
   public abstract void brew();
 
   public void pourInCup() {
-      System.out.println("­Ë¶iªM¤l");
+      System.out.println("å€’é€²æ¯å­");
   }
 
   public boolean wantsIce() {
@@ -24,7 +24,7 @@ abstract class BeverageMaker {
   }
 
   public void addIce() {
-      System.out.println("²K¥[¦B¶ô");
+      System.out.println("æ·»åŠ å†°å¡Š");
   }
 
   public abstract void addCondiments();

@@ -1,23 +1,23 @@
 /**
-* ³o¬O­Ó¿O¡C¨ã³Q¨â¬q«G«×½Õ¸`¥\¯à¡A¤]¥i¥H±oª¾¿Oªw¥Ø«eªº«G«×
+* é€™æ˜¯å€‹ç‡ˆã€‚å…·è¢«å…©æ®µäº®åº¦èª¿ç¯€åŠŸèƒ½ï¼Œä¹Ÿå¯ä»¥å¾—çŸ¥ç‡ˆæ³¡ç›®å‰çš„äº®åº¦
 */
 public class Light {
     
-  private int brightness = 0;  // ¦P¤W¡A²z½×¤W³oÃä­n¥Îenum³B²z¤ñ¸û¦n
+  private int brightness = 0;  // åŒä¸Šï¼Œç†è«–ä¸Šé€™é‚Šè¦ç”¨enumè™•ç†æ¯”è¼ƒå¥½
       
   public void off() {
       brightness = 0;
-      System.out.println("Ãö¿O");
+      System.out.println("é—œç‡ˆ");
   }
   
   public void dim() {
       brightness = 1;
-      System.out.println("¿O¥ú·t");
+      System.out.println("ç‡ˆå…‰æš—");
   }
   
   public void bright() {
       brightness = 2;
-      System.out.println("¿O¥ú«G");
+      System.out.println("ç‡ˆå…‰äº®");
   }
   
   public int getBrightness() {

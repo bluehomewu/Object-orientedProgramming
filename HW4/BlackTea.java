@@ -1,7 +1,7 @@
 public class BlackTea implements Beverage {
   @Override
   public String getDescription() {
-      return "¬õ¯ù";
+      return "ç´…èŒ¶";
   }
 
   @Override

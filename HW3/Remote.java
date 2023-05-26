@@ -2,7 +2,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 class Remote {
-    Map<Integer, DeviceCommand> buttons = new HashMap<>();  // 5­Ó«ö¶s¡A¨C­Ó«ö¶s¹ïÀ³¨ì¤@­Ó¯S©wªº³]³Æ
+    Map<Integer, DeviceCommand> buttons = new HashMap<>();  // 5å€‹æŒ‰éˆ•ï¼Œæ¯å€‹æŒ‰éˆ•å°æ‡‰åˆ°ä¸€å€‹ç‰¹å®šçš„è¨­å‚™
     
     void addDevice(int buttonId, DeviceCommand deviceCommand) {
         buttons.put(buttonId, deviceCommand);

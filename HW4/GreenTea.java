@@ -1,7 +1,7 @@
 public class GreenTea implements Beverage {
   @Override
   public String getDescription() {
-      return "ºñ¯ù";
+      return "ç¶ èŒ¶";
   }
 
   @Override

@@ -1,8 +1,8 @@
 # HW1: Design Pattern
 
-���]�p�רҬ��@���ƻs�@���A�A�Ω�@�ءB�����h�ض��ơC�Q�Ϊ���ɦV�] OOP �^��h�A�����Ĳv�P�iŪ�ʡC  
-�ڭ̱N�@�P�B�J�u�N���v�P�u�˶i�M�l�v��J��¦���O BeverageMaker ���A���S�w���ƻs�@���O�]�p CoffeeMaker�BTeaMaker �^�~�ӡA�H�קK�{���X���ơC  
+本設計案例為一飲料製作機，適用於咖啡、茶等多種飲料。利用物件導向（ OOP ）原則，提高效率與可讀性。  
+我們將共同步驟「煮水」與「倒進杯子」放入基礎類別 BeverageMaker 中，讓特定飲料製作類別（如 CoffeeMaker、TeaMaker ）繼承，以避免程式碼重複。  
 
-������U���ƯS�w�s�@�L�{�]�p�@�ت��u�i�@�ءv�B�u�K�[�}�M�����v�F�����u���w�����v�B�u�K�[�f�c�v�^�A��¦���O�w�q��H��k�]�p brew()�BaddCondiments() �^�A�l���O�����мg�C  
-��X�U���ƯS�w�s�@�B�J�� prepare() ��k�C  
-�w��i�ٲ��B�J�]�p�N���[�B�B�������ݡ^�A��¦���O�w�q�i�мg��k�]�p addIce() �^�A���ѹw�]��@�C�l���O�мg�ɥi�ۭq�C�o�˪��]�p��u�ʡA��K�����X�R�s�������O�C  
+為應對各飲料特定製作過程（如咖啡的「磨咖啡」、「添加糖和牛奶」；茶的「浸泡茶葉」、「添加檸檬」），基礎類別定義抽象方法（如 brew()、addCondiments() ），子類別必須覆寫。  
+整合各飲料特定製作步驟於 prepare() 方法。  
+針對可省略步驟（如冷飲加冰、熱飲不需），基礎類別定義可覆寫方法（如 addIce() ），提供預設實作。子類別覆寫時可自訂。這樣的設計具彈性，方便後續擴充新飲料類別。  

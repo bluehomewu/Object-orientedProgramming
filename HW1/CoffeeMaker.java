@@ -1,9 +1,9 @@
 class CoffeeMaker extends BeverageMaker {
   public void brew() {
-      System.out.println("§â¼ö¤ô­Ë¶i¿i¦nªº©@°Ø¯»");
+      System.out.println("æŠŠç†±æ°´å€’é€²ç£¨å¥½çš„å’–å•¡ç²‰");
   }
 
   public void addCondiments() {
-      System.out.println("²K¥[¿}©Î¤û¥¤µ¥ÃB¥~²K¥[ª«");
+      System.out.println("æ·»åŠ ç³–æˆ–ç‰›å¥¶ç­‰é¡å¤–æ·»åŠ ç‰©");
   }
 }

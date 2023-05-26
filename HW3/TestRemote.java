@@ -5,9 +5,9 @@ public class TestRemote {
       Light light = new Light();
       
       Remote r = new Remote();
-      r.addDevice(0, new TelevisionCommand(television));  // ±N²Ä0­Ó«ö¶s³]©w¬°±±¨î¹qµø
-      r.addDevice(1, new SoundboxCommand(soundbox));     // ±N²Ä1­Ó«ö¶s³]©w¬°±±¨î­µ½c
-      r.addDevice(2, new LightCommand(light));           // ±N²Ä2­Ó«ö¶s³]©w¬°±±¨î¿O¥ú
+      r.addDevice(0, new TelevisionCommand(television));  // å°‡ç¬¬0å€‹æŒ‰éˆ•è¨­å®šç‚ºæŽ§åˆ¶é›»è¦–
+      r.addDevice(1, new SoundboxCommand(soundbox));     // å°‡ç¬¬1å€‹æŒ‰éˆ•è¨­å®šç‚ºæŽ§åˆ¶éŸ³ç®±
+      r.addDevice(2, new LightCommand(light));           // å°‡ç¬¬2å€‹æŒ‰éˆ•è¨­å®šç‚ºæŽ§åˆ¶ç‡ˆå…‰
       r.pressAllButtons();
   }
 }

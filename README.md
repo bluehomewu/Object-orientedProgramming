@@ -20,7 +20,7 @@ Course design
 ---
 | Week | Class Date | Course Objective and Content | Teaching Approach | Assessment |
 | :--- | :--- | :--- | :--- | :--- |
-| ¶g | ¤W½Ò¤é | ½Òµ{³æ¤¸¥Ø¼Ğ¤Î¤º®e | ±Ğ¾Çªk»P±Ğ¾Ç¬¡°Ê | µû¶q |
+| é€± | ä¸Šèª²æ—¥ | èª²ç¨‹å–®å…ƒç›®æ¨™åŠå…§å®¹ | æ•™å­¸æ³•èˆ‡æ•™å­¸æ´»å‹• | è©•é‡ |
 | 1 | 2023-02-13 | (Registration Day) | | |
 | 1 | 2023-02-17 | Objective: To understand why we need to learn Java. Know the basics of Java<br>Unit 1: introduction to OOP. Definition of class, method, and statment. | Instruction:Lecture, Practice | Lab |
 | 2 | 2023-02-20 | Objective: To understand what is a "good" Java program.<br>Unit 1: fundamentals of JAVA programming. Java naming conventions and coding guidelines. Read a simple Java program. | Instruction:Lecture,Practice | Lab |

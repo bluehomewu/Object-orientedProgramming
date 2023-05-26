@@ -3,6 +3,6 @@ public class TestBeverage {
       Beverage beverage = new BlackTea();
       beverage = new MilkDecorator(beverage);
       beverage = new PearlDecorator(beverage);
-      System.out.println(beverage.getDescription() + " ¶O¥Î: " + beverage.getCost() + "¤¸");
+      System.out.println(beverage.getDescription() + " è²»ç”¨: " + beverage.getCost() + "å…ƒ");
   }
 }

@@ -1,28 +1,28 @@
 /**
-* ³o¬O¥x­µ½c¡C¨ã³Æ¤T¬q­µ¶q½Õ¸`¥\¯à¡A¤]¥i¥H±oª¾­µ½c¥Ø«eªº­µ¶q
+* é€™æ˜¯å°éŸ³ç®±ã€‚å…·å‚™ä¸‰æ®µéŸ³é‡èª¿ç¯€åŠŸèƒ½ï¼Œä¹Ÿå¯ä»¥å¾—çŸ¥éŸ³ç®±ç›®å‰çš„éŸ³é‡
 */
 public class Soundbox {
     
-  private int level = 0;  // ³oÃä¥Îenum³B²z­µ¶q¼h¯Å¤ñ¸û¦n¡A¦ı¤£¼vÅT¥»ÃDªº§@µª©Ò¥H³oÃä°½Ãi
+  private int level = 0;  // é€™é‚Šç”¨enumè™•ç†éŸ³é‡å±¤ç´šæ¯”è¼ƒå¥½ï¼Œä½†ä¸å½±éŸ¿æœ¬é¡Œçš„ä½œç­”æ‰€ä»¥é€™é‚Šå·æ‡¶
       
   public void off() {
       level = 0;
-      System.out.println("Ãö³¬­µÅT");
+      System.out.println("é—œé–‰éŸ³éŸ¿");
   }
   
   public void low() {
       level = 1;
-      System.out.println("­µÅT­µ¶q¤p");
+      System.out.println("éŸ³éŸ¿éŸ³é‡å°");
   }
   
   public void medium() {
       level = 2;
-      System.out.println("­µÅT­µ¶q¤¤");
+      System.out.println("éŸ³éŸ¿éŸ³é‡ä¸­");
   }
   
   public void high() {
       level = 3;
-      System.out.println("­µÅT­µ¶q¤j");
+      System.out.println("éŸ³éŸ¿éŸ³é‡å¤§");
   }
   
   public int getLevel() {
